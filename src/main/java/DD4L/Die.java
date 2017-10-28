@@ -23,9 +23,11 @@ public double getVisibleFace()
 {
     return this.visibleFace;    
 }
+/**
 public static void main(String[] args) 
 {
     Die myDie = new Die(12,0);//Création objet
     System.out.println ("Le nombre de face visible du dé est " + myDie.getVisibleFace());
 }
+**/
 }
