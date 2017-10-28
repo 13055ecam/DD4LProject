@@ -26,11 +26,13 @@ public double getKelvin()
 	{
             return  this.DegreeTemp+273.15;
 	}
+/**
 public static void main(String[] args) 
-{
-    /**
+    {
+    
     Temp MyTemp = new Temp(32);
     System.out.println ("La température est de " + MyTemp.getFara()+ " F° ou " + MyTemp.getKelvin()+" Kelvin");
-    * **/
-}
+    }
+    * 
+    **/
 }
