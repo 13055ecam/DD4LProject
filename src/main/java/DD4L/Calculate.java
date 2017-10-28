@@ -26,4 +26,9 @@ public class Calculate {
     {
         return 2*((this.x)+(this.y));
     }
+    public static void main(String[] args) 
+{
+    Calculate square = new Calculate(5,6);
+    System.out.println ("Le périmètre du carré est " + square.Getperimeter());
+}
 }
