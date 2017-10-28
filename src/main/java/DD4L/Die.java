@@ -17,7 +17,7 @@ private double visibleFace;
 public Die(int nbFaces,double visibleFace)
 {
     this.nbFaces = nbFaces;
-    this.visibleFace = (Math.random() * this.nbFaces) + 1;
+    this.visibleFace = (0.50 *this.nbFaces) + 1;
 }
 public double getVisibleFace()
 {

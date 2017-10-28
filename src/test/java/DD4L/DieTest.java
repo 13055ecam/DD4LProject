@@ -20,11 +20,7 @@ public class DieTest {
      */
     @Test
     public void testGetVisibleFace() {
-        /**Die myDie = new Die(6,3);
-        assertEquals(6.285392831622461, myDie.getVisibleFace(), 0.0);
-        Die myDie2 = new Die(12,0);
-        assertEquals(1.4129047162345927, myDie2.getVisibleFace(), 0.0);
-    }
-    * */
-}
+        Die myDie = new Die(12,0);
+        assertEquals(7, myDie.getVisibleFace(), 0.0);
+        }
 }
